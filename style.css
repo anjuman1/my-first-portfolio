@@ -1,11 +1,17 @@
 body{
     font-family: 'Fira Sans', sans-serif;
     font-family: 'Merriweather Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 p {
     color: dimgray;
+    font-size: 20px;
 }
 h1{
+    font-size: 50px;
+}
+h2{
     font-size: 40px;
 }
 .orange-highlight{
@@ -21,8 +27,9 @@ h1{
     padding-left: 3%;
     padding-top: 4% ;
 }
-#half-width{
-    width: 100%;
+
+#half-width img{
+    width: 40%;
     margin-top: 3% ; 
 } 
 .link-button{
@@ -41,4 +48,49 @@ h1{
     padding-right: 3%;
     padding-top: 2% ;
 }
+.about-area img{
+    width: 100%;
+}
+#work-area{
+    float: left;
+    width: 100%;
+    background-color: whitesmoke;
+    height: 1000px;
+    padding-left: 8%;
+    margin-right: 0px;
+}
+#middle-align{
+    text-align: center;
+    padding: 30px; 
+    width: 90%;
+}
+.cards{
+    width: 25%;
+    border-radius: 15px;
+    margin: 1%;
+    font-size: 22px;
+    float:left;
+    background-color: white;
+    box-shadow: 2px 2px 20px whitesmoke
+
+}
+.des{
+    width: 100%;
+    text-align:center;
+}
+.image img{
+    width: 100%;
+
+}
+.height-change{
+    padding-bottom: 40px;
+}
+.inquiry {
+    width: 100%;
+}
+.inquiry img{
+    width: 65%;
+    padding: 200px;
+}
+
 
